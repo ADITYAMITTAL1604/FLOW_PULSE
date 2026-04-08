@@ -1,0 +1,100 @@
+{
+  "schemes": [
+    {
+      "id": "pli_ev",
+      "name": "PLI Scheme for Advanced Chemistry Cell",
+      "ministry": "Ministry of Heavy Industries",
+      "sector": ["ev"],
+      "incentive": "18-20% on incremental sales",
+      "outlay_cr": 18100,
+      "eligible_size": ["Medium", "Large"],
+      "min_investment_cr": 5,
+      "link": "https://heavyindustries.gov.in",
+      "description": "Production Linked Incentive for EV battery and component manufacturers"
+    },
+    {
+      "id": "pli_semiconductor",
+      "name": "Semicon India Programme",
+      "ministry": "Ministry of Electronics & IT",
+      "sector": ["semiconductor"],
+      "incentive": "50% on capital expenditure",
+      "outlay_cr": 76000,
+      "eligible_size": ["Small", "Medium", "Large"],
+      "min_investment_cr": 1,
+      "link": "https://semiconductors.india.gov.in",
+      "description": "Design-linked and compound semiconductor incentive scheme"
+    },
+    {
+      "id": "pli_solar",
+      "name": "PLI Solar PV Modules",
+      "ministry": "Ministry of New & Renewable Energy",
+      "sector": ["green_energy"],
+      "incentive": "4-6% on net sales",
+      "outlay_cr": 24000,
+      "eligible_size": ["Small", "Medium", "Large"],
+      "min_investment_cr": 2,
+      "link": "https://mnre.gov.in",
+      "description": "PLI for high-efficiency solar PV module manufacturers"
+    },
+    {
+      "id": "msme_credit",
+      "name": "CGTMSE Credit Guarantee Scheme",
+      "ministry": "Ministry of MSME",
+      "sector": ["ev", "semiconductor", "green_energy", "defence", "pharma"],
+      "incentive": "Collateral-free loans up to ₹5Cr",
+      "outlay_cr": 9000,
+      "eligible_size": ["Micro", "Small"],
+      "min_investment_cr": 0,
+      "link": "https://cgtmse.in",
+      "description": "Credit guarantee for MSMEs to access formal credit without collateral"
+    },
+    {
+      "id": "defence_pli",
+      "name": "PLI Defence & Aerospace",
+      "ministry": "Ministry of Defence",
+      "sector": ["defence"],
+      "incentive": "4-25% on incremental production",
+      "outlay_cr": 1000,
+      "eligible_size": ["Small", "Medium", "Large"],
+      "min_investment_cr": 0.5,
+      "link": "https://ddpmod.gov.in",
+      "description": "PLI for indigenous defence manufacturing and exports"
+    },
+    {
+      "id": "pharma_pli",
+      "name": "PLI Pharmaceuticals",
+      "ministry": "Ministry of Chemicals & Fertilizers",
+      "sector": ["pharma"],
+      "incentive": "3-10% on incremental sales",
+      "outlay_cr": 15000,
+      "eligible_size": ["Small", "Medium", "Large"],
+      "min_investment_cr": 1,
+      "link": "https://pharmaceuticals.gov.in",
+      "description": "PLI for critical KSMs, drug intermediates and APIs"
+    },
+    {
+      "id": "udyam",
+      "name": "Udyam Registration Benefits",
+      "ministry": "Ministry of MSME",
+      "sector": ["ev", "semiconductor", "green_energy", "defence", "pharma"],
+      "incentive": "Priority credit, subsidies, tax benefits",
+      "outlay_cr": 0,
+      "eligible_size": ["Micro", "Small", "Medium"],
+      "min_investment_cr": 0,
+      "link": "https://udyamregistration.gov.in",
+      "description": "Register as MSME to unlock government subsidies, tenders, and credit priority"
+    },
+    {
+      "id": "make_in_india",
+      "name": "Make in India Manufacturing Zone",
+      "ministry": "DPIIT",
+      "sector": ["ev", "semiconductor", "green_energy", "defence", "pharma"],
+      "incentive": "Land at subsidized rates, fast approvals",
+      "outlay_cr": 0,
+      "eligible_size": ["Small", "Medium", "Large"],
+      "min_investment_cr": 0.5,
+      "link": "https://makeinindia.com",
+      "description": "Dedicated manufacturing zones with plug-and-play infrastructure"
+    }
+  ]
+}

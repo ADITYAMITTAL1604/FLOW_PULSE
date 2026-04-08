@@ -1,0 +1,169 @@
+{
+  "sectors": [
+    {
+      "id": "ev",
+      "name": "Electric Vehicles",
+      "icon": "⚡",
+      "fdi_inflow_cr": 48200,
+      "growth_pct": 34,
+      "opportunity_score": 87,
+      "infrastructure_score": 72,
+      "volatility": 0.28,
+      "states": {
+        "Maharashtra": 92,
+        "Gujarat": 88,
+        "Tamil Nadu": 84,
+        "Karnataka": 79,
+        "Rajasthan": 65,
+        "Uttar Pradesh": 61,
+        "Haryana": 70,
+        "Telangana": 75,
+        "Andhra Pradesh": 68,
+        "Punjab": 55
+      },
+      "supply_chain": [
+        { "tier": 1, "role": "OEM Assembler", "examples": "Tata Motors, Mahindra", "entry_barrier": "Very High", "sme_fit": false },
+        { "tier": 2, "role": "Component Manufacturer", "examples": "Motor, Battery Pack, Inverter", "entry_barrier": "Medium", "sme_fit": true },
+        { "tier": 3, "role": "Raw Material Supplier", "examples": "Steel, Copper, Plastics", "entry_barrier": "Low", "sme_fit": true }
+      ],
+      "actions": [
+        "Manufacture EV-grade steel stampings for body panels",
+        "Produce copper wiring harnesses for battery packs",
+        "Supply precision plastic components for interiors",
+        "Manufacture aluminum heat sinks for battery management"
+      ]
+    },
+    {
+      "id": "semiconductor",
+      "name": "Semiconductors",
+      "icon": "🔬",
+      "fdi_inflow_cr": 76500,
+      "growth_pct": 52,
+      "opportunity_score": 91,
+      "infrastructure_score": 58,
+      "volatility": 0.35,
+      "states": {
+        "Karnataka": 95,
+        "Tamil Nadu": 88,
+        "Telangana": 85,
+        "Gujarat": 80,
+        "Maharashtra": 78,
+        "Andhra Pradesh": 72,
+        "Uttar Pradesh": 45,
+        "Haryana": 60,
+        "Rajasthan": 40,
+        "Punjab": 38
+      },
+      "supply_chain": [
+        { "tier": 1, "role": "Chip Fabrication (Fab)", "examples": "TSMC, Intel", "entry_barrier": "Extremely High", "sme_fit": false },
+        { "tier": 2, "role": "ATMP (Assembly, Test)", "examples": "Packaging, Testing units", "entry_barrier": "High", "sme_fit": false },
+        { "tier": 3, "role": "Ancillary & Chemicals", "examples": "Gases, Chemicals, PCBs", "entry_barrier": "Medium", "sme_fit": true }
+      ],
+      "actions": [
+        "Manufacture PCB assemblies for semiconductor equipment",
+        "Supply ultra-pure chemicals for chip cleaning processes",
+        "Produce precision mechanical parts for fab equipment",
+        "Provide packaging materials for chip shipping"
+      ]
+    },
+    {
+      "id": "green_energy",
+      "name": "Green Energy",
+      "icon": "🌱",
+      "fdi_inflow_cr": 62300,
+      "growth_pct": 41,
+      "opportunity_score": 83,
+      "infrastructure_score": 80,
+      "volatility": 0.22,
+      "states": {
+        "Rajasthan": 95,
+        "Gujarat": 90,
+        "Tamil Nadu": 86,
+        "Karnataka": 82,
+        "Andhra Pradesh": 85,
+        "Maharashtra": 72,
+        "Uttar Pradesh": 68,
+        "Haryana": 65,
+        "Punjab": 60,
+        "Telangana": 70
+      },
+      "supply_chain": [
+        { "tier": 1, "role": "Project Developer / IPP", "examples": "Adani Green, ReNew Power", "entry_barrier": "Very High", "sme_fit": false },
+        { "tier": 2, "role": "Equipment Manufacturer", "examples": "Solar Panels, Wind Blades", "entry_barrier": "Medium", "sme_fit": true },
+        { "tier": 3, "role": "Component Supplier", "examples": "Frames, Mounts, Cables", "entry_barrier": "Low", "sme_fit": true }
+      ],
+      "actions": [
+        "Manufacture solar panel mounting structures in galvanized steel",
+        "Produce aluminum frames for solar modules",
+        "Supply DC cables and connectors for solar farms",
+        "Manufacture inverter enclosures and junction boxes"
+      ]
+    },
+    {
+      "id": "defence",
+      "name": "Defence & Aerospace",
+      "icon": "🛡️",
+      "fdi_inflow_cr": 38900,
+      "growth_pct": 28,
+      "opportunity_score": 76,
+      "infrastructure_score": 65,
+      "volatility": 0.31,
+      "states": {
+        "Uttar Pradesh": 90,
+        "Tamil Nadu": 82,
+        "Karnataka": 85,
+        "Telangana": 78,
+        "Maharashtra": 74,
+        "Gujarat": 68,
+        "Rajasthan": 62,
+        "Andhra Pradesh": 72,
+        "Haryana": 58,
+        "Punjab": 55
+      },
+      "supply_chain": [
+        { "tier": 1, "role": "Prime Contractor", "examples": "HAL, DRDO, BEL", "entry_barrier": "Extremely High", "sme_fit": false },
+        { "tier": 2, "role": "Sub-system Manufacturer", "examples": "Avionics, Structural parts", "entry_barrier": "High", "sme_fit": false },
+        { "tier": 3, "role": "Component & Material", "examples": "Fasteners, Castings, Forgings", "entry_barrier": "Medium", "sme_fit": true }
+      ],
+      "actions": [
+        "Manufacture precision aerospace fasteners (AS9100 certified)",
+        "Supply aluminium and titanium forgings for aircraft structures",
+        "Produce electronic enclosures for defence equipment",
+        "Manufacture night vision device components"
+      ]
+    },
+    {
+      "id": "pharma",
+      "name": "Pharmaceuticals",
+      "icon": "💊",
+      "fdi_inflow_cr": 29800,
+      "growth_pct": 19,
+      "opportunity_score": 71,
+      "infrastructure_score": 75,
+      "volatility": 0.18,
+      "states": {
+        "Telangana": 95,
+        "Gujarat": 90,
+        "Maharashtra": 85,
+        "Himachal Pradesh": 82,
+        "Andhra Pradesh": 80,
+        "Karnataka": 72,
+        "Uttarakhand": 70,
+        "Punjab": 65,
+        "Haryana": 68,
+        "Rajasthan": 55
+      },
+      "supply_chain": [
+        { "tier": 1, "role": "Formulation / API Maker", "examples": "Sun Pharma, Dr. Reddy's", "entry_barrier": "Very High", "sme_fit": false },
+        { "tier": 2, "role": "Excipient & Chemical", "examples": "Solvents, Binders, Coatings", "entry_barrier": "Medium", "sme_fit": true },
+        { "tier": 3, "role": "Packaging & Equipment", "examples": "Blister packs, Vials, Bottles", "entry_barrier": "Low", "sme_fit": true }
+      ],
+      "actions": [
+        "Manufacture pharmaceutical-grade HDPE/PET packaging bottles",
+        "Supply blister packaging foils (aluminium laminate)",
+        "Produce glass vials and ampoules for injectable drugs",
+        "Manufacture clean room furniture and equipment"
+      ]
+    }
+  ]
+}
